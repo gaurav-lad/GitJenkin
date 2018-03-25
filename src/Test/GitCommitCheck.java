@@ -1,4 +1,5 @@
-import java.io.File;
+package Test;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,8 +12,8 @@ public class GitCommitCheck {
 			System.out.println("value of i is: "+i);
 		}
 		try {
-			in = new FileInputStream("./src/Test.txt");
-			out= new FileOutputStream("./src/Test2.txt");
+			in = new FileInputStream("C:/Users/xeadmin/eclipse-workspace/Test/src/Test.txt");
+			out= new FileOutputStream("C:/Users/xeadmin/eclipse-workspace/Test/src/Test2.txt");
 			int c;
 			while ((c = in.read()) != -1) {
 	            out.write(c);
