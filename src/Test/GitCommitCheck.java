@@ -8,7 +8,7 @@ public class GitCommitCheck {
 	public static void main(String[]  args) throws IOException {
 		FileInputStream in = null;
 		FileOutputStream out = null;
-		for(int i = 0 ; i < 10; i++) {
+		for(int i = 1 ; i < 5; i++) {
 			System.out.println("value of i is: "+i);
 		}
 		try {
